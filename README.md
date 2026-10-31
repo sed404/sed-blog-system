@@ -109,12 +109,6 @@ https://你的域名/install/
 └── user/              # 用户数据目录
 ```
 
-## 安全说明
-
-- 安装后生成的 `config.php` 包含数据库密码，**请勿提交到公开仓库**。
-- 本仓库已通过 `.gitignore` 排除 `config.php` 及运行时数据。
-- 正式部署前请在空数据库上完整试装一次。
-
 ## 版权
 
 基于 [yunxi0723/yxos](https://github.com/yunxi0723/yxos) 二次开发，采用 **GNU General Public License v3.0** 开源协议。商业使用请遵守 GPL-3.0 条款。
