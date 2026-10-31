@@ -1,0 +1,23 @@
+/* One navigation appearance for Moments and all public life pages. */
+body .life-floating-nav {--nav-bg:#fff; --nav-border:#edf0f2; --nav-text:#73808b; --nav-accent:#00a875; position:fixed; z-index:120; left:0; right:0; bottom:0; top:auto; width:100%; max-width:none; transform:none; pointer-events:auto;}
+body.dark-theme .life-floating-nav {--nav-bg:#292b2e; --nav-border:#414348; --nav-text:#abb0b7; --nav-accent:#32c997;}
+body .life-floating-nav__inner {display:flex; justify-content:space-around; min-height:0; border:0; border-top:1px solid var(--nav-border); border-radius:0; background:var(--nav-bg); box-shadow:none; -webkit-backdrop-filter:none; backdrop-filter:none; padding:0 0 env(safe-area-inset-bottom,0px);}
+body.dark-theme .life-floating-nav__inner {background:var(--nav-bg); border-color:var(--nav-border);}
+body .life-floating-nav__item {flex:1; min-width:0; height:60px; display:flex; flex-direction:column; gap:3px; color:var(--nav-text); text-decoration:none;}
+body .life-floating-nav__icon {width:24px; height:24px; font-size:23px; line-height:24px;}
+body .life-floating-nav__label {font-family:"Helvetica Neue","Microsoft YaHei",sans-serif; font-size:11px; line-height:18px;}
+body .life-floating-nav__item--active {color:var(--nav-accent);}
+body .life-nav-brand,body .life-nav-search {display:none;}
+@media(min-width:760px){body.life-homepage .life-nav-search{display:none}}
+body .life-floating-nav.life-floating-nav--hidden {transform:translateY(110%);}
+@media(min-width:760px) {
+ body .life-floating-nav {top:0; bottom:auto; background:var(--nav-bg); border-bottom:1px solid var(--nav-border);}
+ body .life-floating-nav__inner {max-width:1100px; height:64px; box-sizing:border-box; margin:0 auto; padding:0 32px; border:0; justify-content:flex-start; gap:32px;}
+ body .life-nav-brand {display:flex; align-items:center; flex:none; color:#202124; font:700 24px/1 "Helvetica Neue",Arial,sans-serif; text-decoration:none; margin-right:16px;}
+ body.dark-theme .life-nav-brand {color:#f0f1f2;}
+ body .life-floating-nav__item {height:64px; flex:0 1 auto; width:auto; min-width:40px; border-bottom:2px solid transparent; box-sizing:border-box; flex-direction:row;}
+ body .life-floating-nav__icon {display:none;}
+ body .life-floating-nav__label {font-size:14px;}
+ body .life-floating-nav__item--active {border-bottom-color:var(--nav-accent);}
+ body .life-nav-search {margin-left:auto; display:flex; align-items:center; font-size:23px; color:var(--nav-text); text-decoration:none;}
+}

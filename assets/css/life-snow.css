@@ -1,0 +1,28 @@
+/* Loaded only when the administrator enables snow. */
+:root { --snow-enabled: 1; }
+body::before, body::after {
+ content:""; position:fixed; inset:-100vh 0 0; z-index:999999;
+ pointer-events:none; background-repeat:repeat;
+}
+body::before {
+ opacity:calc(.75 * var(--snow-enabled));
+ background-image:radial-gradient(circle,#fff 0 4px,transparent 4.5px),radial-gradient(circle,rgba(255,255,255,.9) 0 5px,transparent 5.5px),radial-gradient(circle,rgba(255,255,255,.75) 0 3px,transparent 3.5px);
+ background-size:272px 325px,377px 447px,237px 403px;
+ background-position:35px 70px,190px 230px,110px 330px;
+ filter:drop-shadow(0 0 2px rgba(80,120,160,.45));
+ animation:snow-route-one 29s linear infinite;
+}
+body::after {
+ opacity:calc(.6 * var(--snow-enabled));
+ background-image:radial-gradient(circle,#fff 0 5px,transparent 5.5px),radial-gradient(circle,rgba(255,255,255,.8) 0 4px,transparent 4.5px);
+ background-size:456px 517px,342px 412px; background-position:280px 120px,70px 290px;
+ filter:drop-shadow(0 0 3px rgba(80,120,160,.4));
+ animation:snow-route-two 40s linear infinite; animation-delay:-16s;
+}
+@keyframes snow-route-one {
+ 0%{transform:translate3d(-20px,0,0)}18%{transform:translate3d(35px,18vh,0)}39%{transform:translate3d(-15px,39vh,0)}61%{transform:translate3d(45px,61vh,0)}82%{transform:translate3d(5px,82vh,0)}100%{transform:translate3d(30px,100vh,0)}
+}
+@keyframes snow-route-two {
+ 0%{transform:translate3d(40px,0,0)}22%{transform:translate3d(-25px,22vh,0)}47%{transform:translate3d(30px,47vh,0)}69%{transform:translate3d(-40px,69vh,0)}88%{transform:translate3d(15px,88vh,0)}100%{transform:translate3d(-10px,100vh,0)}
+}
+@media(prefers-reduced-motion:reduce){body::before,body::after{display:none;animation:none}}

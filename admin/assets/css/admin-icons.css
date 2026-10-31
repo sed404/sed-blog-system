@@ -1,0 +1,32 @@
+/* MDI 4.1.95, Apache-2.0; subset for admin views only. */
+@font-face{font-family:"Admin Icons";src:url("../fonts/admin-icons.woff2") format("woff2");font-weight:normal;font-style:normal;font-display:block}.mdi:before{display:inline-block;font:normal normal normal 24px/1 "Admin Icons";font-size:inherit;line-height:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased}
+.mdi-access-point-network::before{content:"\F003"}
+.mdi-account::before{content:"\F004"}
+.mdi-account-arrow-left::before{content:"\FB2D"}
+.mdi-account-edit-outline::before{content:"\F001D"}
+.mdi-account-plus::before{content:"\F014"}
+.mdi-adchoices::before{content:"\FD1E"}
+.mdi-arrow-up-bold-circle::before{content:"\F05F"}
+.mdi-bell-outline::before{content:"\F09C"}
+.mdi-block-helper::before{content:"\F0AD"}
+.mdi-check::before{content:"\F12C"}
+.mdi-checkbox-marked-circle-outline::before{content:"\F134"}
+.mdi-chevron-up::before{content:"\F143"}
+.mdi-close::before{content:"\F156"}
+.mdi-cloud-check::before{content:"\F160"}
+.mdi-cloud-upload::before{content:"\F167"}
+.mdi-comment-multiple::before{content:"\F85E"}
+.mdi-comment-processing::before{content:"\F184"}
+.mdi-comment-question::before{content:"\F816"}
+.mdi-content-save::before{content:"\F193"}
+.mdi-delete-outline::before{content:"\F9E6"}
+.mdi-dlna::before{content:"\FA40"}
+.mdi-feather::before{content:"\F6D2"}
+.mdi-image::before{content:"\F2E9"}
+.mdi-islam::before{content:"\F978"}
+.mdi-link-variant::before{content:"\F339"}
+.mdi-magnify::before{content:"\F349"}
+.mdi-reddit::before{content:"\F44D"}
+.mdi-rotate-orbit::before{content:"\FD74"}
+.mdi-script-text::before{content:"\FB9E"}
+.mdi-telegram::before{content:"\F501"}

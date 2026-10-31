@@ -1,0 +1,31 @@
+{
+  "ProtectedFilesUnchanged": 246,
+  "ChangedFiles": [
+    "admin\\AGENTS.md",
+    "admin\\auditco.php",
+    "admin\\audites.php",
+    "admin\\authority.php",
+    "admin\\authver.php",
+    "admin\\basic.php",
+    "admin\\emailset.php",
+    "admin\\imgset.php",
+    "admin\\index.php",
+    "admin\\life-gallery.php",
+    "admin\\life-navigation.php",
+    "admin\\life-planner.php",
+    "admin\\life-profile.php",
+    "admin\\life-providers.php",
+    "admin\\life-sites.php",
+    "admin\\life-works.php",
+    "admin\\linkset.php",
+    "admin\\login.php",
+    "admin\\migration-check.php",
+    "admin\\remote-files.php",
+    "admin\\rm.php",
+    "admin\\userlist.php",
+    "admin\\assets\\css\\admin-ui.css",
+    "admin\\assets\\js\\admin-ui.js",
+    "includes\\admin-shell.php",
+    "includes\\life-admin.php"
+  ]
+}

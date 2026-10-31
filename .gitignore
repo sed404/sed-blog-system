@@ -1,0 +1,6 @@
+/config.php
+/install/ins.bak
+/install/install.lock
+/upload/*
+/user/**/*
+*.log

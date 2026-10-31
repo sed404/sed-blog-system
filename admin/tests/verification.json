@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-03",
+  "browser": "Windows Edge (Chromium), headless",
+  "database": "Isolated fake mysqli; no production connection",
+  "pageViewportChecks": 84,
+  "pageThemeViewportChecks": 672,
+  "themeCombinations": 4096,
+  "minimumMeasuredContrast": 4.656363433043183,
+  "contrastIssues": [],
+  "scriptErrors": [],
+  "layoutIssues": [],
+  "phpSyntaxFiles": 45,
+  "protectedFilesUnchanged": 246,
+  "formMarkupFilesChecked": 21,
+  "checks": [
+    "Anonymous, malformed, expired, non-admin and banned credentials redirect; database outage gives 503; login renders independently.",
+    "Desktop collapse persistence; 32 theme options; theme persistence/reset/invalid/blocked-storage fallback; dropdown/modal; gradient hover/disabled/reduced motion; mobile drawer/Escape/backdrop/focus trap."
+  ],
+  "limitations": [
+    "No production CRUD, upload, email or third-party search verification.",
+    "No production web-server configuration verification.",
+    "No Safari, Firefox or screen-reader device verification."
+  ]
+}

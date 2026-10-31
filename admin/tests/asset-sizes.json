@@ -1,0 +1,67 @@
+{
+  "measurement": "Local gzip, not measured HTTP transfer",
+  "assets": [
+    {
+      "file": "css/admin-ui.css",
+      "bytes": 16693,
+      "gzipBytes": 3329
+    },
+    {
+      "file": "css/admin-theme.css",
+      "bytes": 25834,
+      "gzipBytes": 5117
+    },
+    {
+      "file": "css/admin-icons.css",
+      "bytes": 1699,
+      "gzipBytes": 605
+    },
+    {
+      "file": "fonts/admin-icons.woff2",
+      "bytes": 2892,
+      "gzipBytes": 2915
+    },
+    {
+      "file": "js/admin-ui.js",
+      "bytes": 12417,
+      "gzipBytes": 3483
+    },
+    {
+      "file": "js/admin-theme.js",
+      "bytes": 2302,
+      "gzipBytes": 975
+    },
+    {
+      "file": "js/jquery-3.7.1.min.js",
+      "bytes": 87533,
+      "gzipBytes": 30406
+    },
+    {
+      "file": "js/bootstrap-4.6.2.bundle.min.js",
+      "bytes": 83376,
+      "gzipBytes": 22119
+    },
+    {
+      "file": "css/bootstrap-4.6.2.min.css",
+      "bytes": 162264,
+      "gzipBytes": 24215
+    },
+    {
+      "file": "css/style.min.css",
+      "bytes": 143080,
+      "gzipBytes": 20343
+    },
+    {
+      "file": "js/main.min.js",
+      "bytes": 8229,
+      "gzipBytes": 3006
+    },
+    {
+      "file": "js/perfect-scrollbar.min.js",
+      "bytes": 18291,
+      "gzipBytes": 5433
+    }
+  ],
+  "totalBytes": 564610,
+  "totalGzipBytes": 121946
+}
